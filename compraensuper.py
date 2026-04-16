@@ -1,0 +1,7 @@
+producto1=int(input('ingrese print(valor del producto '))
+producto2=int(input('ingrese valor del producto '))
+producto3=int(input('ingrese valor del producto '))
+suma=(producto1+producto2+producto3)
+descuento= (suma * 0.1)
+preciototal=(suma-descuento)
+print('preciototal ', preciototal)
