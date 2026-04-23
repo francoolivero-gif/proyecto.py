@@ -1,3 +1,7 @@
+try:
+    precio=int(input('ingrese el precio del producto: '))
+except ValueError:
+    print('Error: Por favor, ingrese un número válido para el precio.')
 precio=int(input('ingrese el precio del producto: '))
 b100=precio//100
 precio=precio%100

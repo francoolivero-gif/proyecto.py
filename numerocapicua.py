@@ -2,7 +2,7 @@ try:
     n=int(input('ingrese un numero de 3 cifras: '))
     if n<=0:
         print('ingrese un numero mayor a 0')
-    elif 99>n<999:
+    elif 99>n<=999:
         print('ingrese un numero de 3 digitos')
 except ValueError:
     print('ingrese un numero valido')
